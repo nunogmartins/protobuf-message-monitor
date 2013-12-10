@@ -1,6 +1,6 @@
 {
 	"name": "protobuf-message-monitor",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Protobuf Message Monitor",
 	"dependencies": {
 		"socket.io": "latest",
