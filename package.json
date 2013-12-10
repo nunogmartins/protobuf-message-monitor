@@ -1,0 +1,26 @@
+{
+	"name": "protobuf-message-monitor",
+	"version": "0.0.2",
+	"description": "Protobuf Message Monitor",
+	"dependencies": {
+		"socket.io": "latest",
+		"express": "latest",
+		"jade": "latest",
+		"protobufjs": "latest",
+		"bytebuffer": "latest"
+	},
+	"scripts": {
+		"start": "node message-viewer.js"
+	},
+	"author": "nuno.martins@caixamagica.pt",
+	"license": "LGPLv3",
+	"keywords": [
+		"protobuf",
+		"monitor",
+		"visualizer"
+	],
+	"repository": {
+	"type": "git",
+	"url": "https://github.com/nunogmartins/protobuf-message-monitor.git"
+  }
+}

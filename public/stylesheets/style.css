@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+table {
+	table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.header {
+	background-image: url(http://localhost:3700/images/logo.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	height: 100px;
+}

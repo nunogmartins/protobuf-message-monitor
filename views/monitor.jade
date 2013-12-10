@@ -1,0 +1,30 @@
+!!!
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/bootstrap/css/bootstrap-responsive.min.css')
+		link(rel='stylesheet', href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css")
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(src='http://code.jquery.com/jquery-2.0.3.js')
+		script(src='/socket.io/socket.io.js')
+		script(src='javascripts/monitor.js')
+
+body
+	include topbar
+
+div.container
+	div.row
+		div.col-md-6
+			h1.header Message Monitoring
+			button.pull-right#collapseall(onclick='collapseall();') Collapse
+			table.table.table-striped(id='messagestable')
+				thead
+					tr: th #
+						th TimeStamp
+						th Received From
+						th Source
+						th Destination
+						th Message
+						th Type
+				tbody(id='messagesbody')
